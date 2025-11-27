@@ -1,9 +1,17 @@
-# Path to your Oh My Zsh installation.
+# Instalación de oh my zsh
 export ZSH="$HOME/.oh-my-zsh"
 
+# Tema de zsh
 ZSH_THEME="robbyrussell"
 
+# Plugins de zsh
 plugins=(git)
 
+# Cargamos el oh my zsh
 source $ZSH/oh-my-zsh.sh
+
+# Aliases
+alias ls='eza --icons --color'
+alias la='eza --icons --color --all'
+alias la='eza --icons --color --all --long'
 
