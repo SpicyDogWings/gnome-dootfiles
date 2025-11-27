@@ -1,0 +1,7 @@
+# Binarios de cargo
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Editor predeterminado es helix
+export EDITOR='hx'
+
+
